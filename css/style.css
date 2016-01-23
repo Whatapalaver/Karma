@@ -19,6 +19,10 @@ div {
     height: 4.375rem;
     margin: 0 auto;
 }
+.top-navigation .logo {
+    height: 4.375rem;
+    margin-left: 14px;
+  }
 .top-navigation .links {
     float: right;
     font-family: 'Roboto', sans-serif;
@@ -39,4 +43,22 @@ div {
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+.introduction h1,
+.introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.introduction h1 {
+    margin-top: 5.5rem;
+    font-size: 3.125rem;
 }

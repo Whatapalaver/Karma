@@ -9,7 +9,7 @@ div {
     background-color: #fff;
 }
 .top-navigation > .content {
-    width: 970px;
+    width: 100%;
     height: 4.375rem;
     margin: 0 auto;
 }

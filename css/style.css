@@ -54,10 +54,10 @@ div {
 }
 .introduction {
     background-image: url('../images/first-background.jpg');
-    background-position: center bottom;
+
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40.938rem;
+    height: 35.938rem;
     overflow: auto;
 }
 .introduction h1,
@@ -94,16 +94,18 @@ button {
 
 .cases {
   background-color: white;
+  overflow: hidden;
 
+}
+.cases .devices {
+  list-style: none;
 }
 .cases .devices >li {
   width: 33.33333%;
-  display: inline-block;
   float: left;
 }
 
 .cases .content {
-
   text-align: center;
 }
 
@@ -117,4 +119,23 @@ button {
   margin: 2rem;
   font-size: 1.1rem;
   font-weight: 300;
+}
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+.social .icons{
+  list-style: none;
+}
+.social .icons >li{
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #eaebec;
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin:1.25rem 5px;
+  padding: 0.625rem 0;
 }

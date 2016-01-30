@@ -1,5 +1,23 @@
-html {
-  box-sizing: border-box;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -10,7 +28,7 @@ body {
 }
 div {
     border: 1px solid Chocolate;
-    box-sizing: border-box;
+
 }
 .content {
     padding: 0 0.938rem;
@@ -54,10 +72,10 @@ div {
 }
 .introduction {
     background-image: url('../images/first-background.jpg');
-
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 35.938rem;
+    height: 40.938rem;
     overflow: auto;
 }
 .introduction h1,
@@ -67,7 +85,7 @@ div {
     font-weight: 300;
 }
 .introduction h1 {
-    margin-top: 10.5rem;
+    margin-top: 15.5rem;
     font-size: 3.125rem;
 }
 
@@ -78,6 +96,7 @@ div {
 
 .introduction .buttons {
   text-align: center;
+  margin-top: 1.563rem;
 }
 
 button {
@@ -95,7 +114,7 @@ button {
 .cases {
   background-color: white;
   overflow: hidden;
-
+  padding-bottom: 5rem;
 }
 .cases .devices {
   list-style: none;
@@ -126,10 +145,15 @@ button {
     padding-bottom: 9.375rem;
     text-align: center;
 }
+
+.social hr {
+  border-top: 1px solid #eaebec;
+  margin: 1rem 0rem;
+}
 .social .icons{
   list-style: none;
 }
-.social .icons >li{
+.social .icons > li{
   display: inline-block;
   text-align: center;
   border: 1px solid #eaebec;
@@ -138,4 +162,9 @@ button {
   height: 2.5rem;
   margin:1.25rem 5px;
   padding: 0.625rem 0;
+}
+.social .copy {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #838994;
 }
